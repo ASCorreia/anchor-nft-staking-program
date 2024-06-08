@@ -5,10 +5,6 @@ use anchor_spl::{
     associated_token::AssociatedToken,
     token::{Approve, Mint, MintTo, Revoke, Token, TokenAccount},
 };
-use mpl_token_metadata::{
-    instruction::{freeze_delegated_account, thaw_delegated_account},
-    ID as MetadataTokenId,
-};
 
 declare_id!("3BBm9cxVfbAFf5zjQeTgohRZbYZdMt1GCUvxAkDLaGwW");
 
