@@ -9,7 +9,7 @@ pub struct LootboxPointer {
   pub is_initialized: bool,
 }
 
-#[repr(packed)]
+#[repr(C)]
 #[account(zero_copy)]
 #[derive(Default)]
 pub struct UserState {

@@ -1,5 +1,5 @@
 use anchor_lang::prelude::*;
-use anchor_nft_staking::UserStakeInfo;
+use anchor_nft_staking::state::UserStakeInfo;
 use anchor_spl::token;
 use anchor_spl::{
     associated_token::AssociatedToken,
